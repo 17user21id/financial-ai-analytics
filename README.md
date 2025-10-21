@@ -390,9 +390,3 @@ uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --workers 4
 - `logs/database_*.log`: Database operation logs
 - `logs/error_*.log`: Error logs
 - `logs/performance_*.log`: Performance metrics
-
-### Health Monitoring
-```bash
-# Check system health
-curl -X GET "http://localhost:8000/api/health/"
-```
