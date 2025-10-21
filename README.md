@@ -254,8 +254,6 @@ The system maintains conversation context:
 ]
 ```
 
-**⚠️ Security Note:** Never commit `key_store.json` to version control. Use `key_store.json.example` as a template.
-
 ### Database Configuration
 - **TEST**: In-memory SQLite database
 - **DEV**: File-based SQLite database with debug logging

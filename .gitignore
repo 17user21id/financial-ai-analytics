@@ -156,10 +156,11 @@ api_server.log
 test_context_results.log
 
 # Data files (if they contain sensitive information)
-data/
-resources/data_set_*.json
-resources/dataset*_output_*.xlsx
-resources/test_pl.xlsx
+# Note: Commenting out the data/ and resources/ exclusions to allow sample data
+# data/
+# resources/data_set_*.json
+# resources/dataset*_output_*.xlsx
+# resources/test_pl.xlsx
 
 # Temporary files
 temp/
